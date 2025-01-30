@@ -19,8 +19,8 @@ public class GetTest {
 		System.out.println(response.statusCode());
 		System.out.println(response.asString());
 		System.out.println(response.asPrettyString());
-		System.out.println(response.statusLine());
-		System.out.println(response.getContentType());
+	//	System.out.println(response.statusLine());
+	//	System.out.println(response.getContentType());
 		int statusCode=response.statusCode();
 		Assert.assertEquals(statusCode, 200);
 	}
